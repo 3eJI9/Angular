@@ -1,0 +1,20 @@
+.container {
+  height: 77px;
+  background-color: #6868d7;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 20px;
+  padding:  0 20px;
+  border-radius: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: cornsilk;
+  font-size: 20px;
+}
+
+.active a {
+  color: darkblue;
+}
