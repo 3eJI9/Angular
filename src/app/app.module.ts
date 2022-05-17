@@ -21,7 +21,9 @@ const routes: Route[] = [
     path: '', component: MainLayoutComponent, children: [
       {path: '', redirectTo: 'users', pathMatch: 'full'},
 
-      {path: 'users', component: UserComponent, children: []},
+      {path: 'users', component: UserComponent, children: [
+          {path: 'id', component: UserDetailsComponent}
+        ]},
       {path: 'posts', component: PostsComponent, children: []},
       {path: 'comments', component: CommentComponent, children: []}
 
