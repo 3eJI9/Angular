@@ -1,6 +1,7 @@
-<div>
-  {{post.id}} --   {{post.userId}} --   {{post.title}} -  {{post.body}}
+<div routerLink="active">
+  <div>
+    {{post.id}}.| <a routerLink="{{post.id}}" [state]="{post}">    {{post.title}} </a>
+  </div>
 </div>
-
 
 

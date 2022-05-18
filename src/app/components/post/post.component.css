@@ -1,0 +1,9 @@
+a {
+  color: #460e0e;
+  text-decoration: none;
+  align-items: center;
+}
+
+.active a {
+  color: cornflowerblue;
+}
