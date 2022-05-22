@@ -1,7 +1,8 @@
 import {NgModule} from '@angular/core';
 import {CommonModule} from '@angular/common';
-import {RouterModule, Routes} from "@angular/router";
-import {MainLayoutComponent} from "./layouts/main.layout/main.layout.component";
+import {RouterModule, Routes} from '@angular/router';
+
+import {MainLayoutComponent} from './layouts/main.layout/main.layout.component';
 
 const routes: Routes = [
   {
@@ -12,7 +13,6 @@ const routes: Routes = [
       {path: 'comments', loadChildren: () => import('./modules').then(value => value.CommentModule)},
     ]
   }
-
 ]
 
 @NgModule({

@@ -1,12 +1,11 @@
 import {NgModule} from '@angular/core';
 import {BrowserModule} from '@angular/platform-browser';
+import {HttpClientModule} from '@angular/common/http';
 
 import {AppComponent} from './app.component';
-import {HttpClientModule} from "@angular/common/http";
+import {MainLayoutComponent} from './layouts/main.layout/main.layout.component';
 import {HeaderComponent} from './components/header/header.component';
-import {AppRoutingModule} from "./app-routing.module";
-import {MainLayoutComponent} from "./layouts/main.layout/main.layout.component";
-
+import {AppRoutingModule} from './app-routing.module';
 
 @NgModule({
   declarations: [
@@ -17,7 +16,7 @@ import {MainLayoutComponent} from "./layouts/main.layout/main.layout.component";
   imports: [
     BrowserModule,
     HttpClientModule,
-    AppRoutingModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
