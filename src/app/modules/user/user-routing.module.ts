@@ -7,9 +7,10 @@ import {UserDetailsComponent} from "./components/user-details/user-details.compo
 
 const routes: Routes = [
   {
-    path: '', component: UserComponent, children: [
-      {path: 'id', component: UserDetailsComponent}
-    ]
+    path: '', component: UserComponent, children:
+      [
+        {path: 'id', component: UserDetailsComponent}
+      ]
   }
 ];
 
