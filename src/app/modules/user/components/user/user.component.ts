@@ -1,4 +1,9 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, Input, OnInit} from '@angular/core';
+
+import {IUser} from '../../interfaces';
+
+import {ActivatedRoute, Router} from "@angular/router";
+
 
 @Component({
   selector: 'app-user',
@@ -6,8 +11,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./user.component.css']
 })
 export class UserComponent implements OnInit {
+  @Input()
+  user: IUser | undefined;
 
-  constructor() { }
+  constructor(private router: Router, private activatedRoute: ActivatedRoute) {
+  }
 
   ngOnInit(): void {
   }
