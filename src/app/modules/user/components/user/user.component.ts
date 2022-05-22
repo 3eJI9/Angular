@@ -10,7 +10,7 @@ import {IUser} from '../../interfaces';
 })
 export class UserComponent implements OnInit {
   @Input()
-  user: IUser | undefined;
+  user: IUser;
 
   constructor(private router: Router, private activatedRoute: ActivatedRoute) {
   }
