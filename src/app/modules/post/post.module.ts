@@ -21,7 +21,8 @@ import { PostDetailsComponent } from './components/post-details/post-details.com
     HttpClientModule
   ],
   providers: [
-    PostService
+    PostService,
+    PostRoutingModule,
   ]
 })
 export class PostModule {
