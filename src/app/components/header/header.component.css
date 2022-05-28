@@ -1,0 +1,15 @@
+.container {
+  font-family: DejaVu Sans Mono, monospace;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 30px;
+  background-color: #487bf1;
+  font-size: 33px;
+  height: 30px;
+
+
+}
+
+.active {
+  color: #9a149a;
+}
