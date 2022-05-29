@@ -1,0 +1,12 @@
+:host {
+  font-family: DejaVu Sans Mono, monospace;
+  font-size: large;
+  padding-top: 5px;
+  padding-left: 1%;
+  padding-bottom: 5px;
+  display: flex;
+  justify-content: left;
+  background-color: #f3d561;
+
+
+}
